@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+background-color: DimGray;
+}
+header{
+
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+width: 100vw;
+height: 10vh;
+background-color: aquamarine;
+}
+.logo{
+  margin-left:50px;
+  margin-top: 10px;
+}
+nav{
+  margin-right: 50px;
+  margin-top: 10px;
+  
+}
+nav a{
+  padding-left: 30px;
+  fon
+}
+main{
+  background-color: black;
+  width: 100vw;
+  height: 70vh;
+}
+.principal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  background-image: url(../img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.principal h3{
+  text-align: center;
+  color: rgb(247, 78, 16);
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+.sobre{
+  background-color: red;
+  width: 100vw;
+  height: 60vh;
+}
+.sobre h1{
+    text-align: center;
+    color: white;
+}
+.sobre p{
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-align: justify;
+  text-indent: 20px;
+
+}
+.galeria{
+background-color: brown;
+width: 100vw;
+height: 100vh;
+}
+.contato{
+  background-color:yellowgreen;
+  width: 100vw;
+  height: 100vh;
+  
+}
+footer{
+  background-color: blueviolet;
+  height: 10vh;
+  width: 100vw;
+}
