@@ -81,6 +81,12 @@ height: 100vh;
   height: 100vh;
   
 }
+.contato form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 150px;
+  padding-bottom: 10px;
+}
 footer{
   background-color: blueviolet;
   height: 10vh;
